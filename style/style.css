@@ -104,9 +104,9 @@ nav a {
     text-align: center;
     width: 70%;
     margin: auto;
-    padding: 20px;
+    justify-content: space-between;
+    padding-top: 30px;
     list-style: none;
-    gap: 20px;
 }
 .aboutheading{
     font-size: 35px;
