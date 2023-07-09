@@ -22,7 +22,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0px 200px;
-
 }
 
 .web-title {
@@ -52,6 +51,7 @@ nav a {
     background-repeat: no-repeat;
     background-position: bottom left;
     background-image: url('images/developer.png');
+    background-position-x: 20px;
 }
 
 .banner {
@@ -61,6 +61,7 @@ nav a {
     padding: 30px 30px 0px 200px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .mypic {
@@ -87,14 +88,15 @@ nav a {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    width: 500px;
 } 
 .aboutme{
      text-align: center;
-     width: 80%;
+     width: 70%;
      margin: auto;
      background-color: #FFF8F3;
-     padding: 200px;
-     margin: 50px;
+    padding: 100px;
+     
 }
 .aboutinfo{
     display: flex;
@@ -117,15 +119,39 @@ nav a {
     text-align: center;
     margin: auto;
 }
+.whatido-pragraph{
+    width: 800px;
+    margin: auto;
+    margin-bottom: 50px;
+}
 .box{
     width: 200px;
     height: 300px;
     border-radius: 5px;
 background: #FFF;
 box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+padding: 30px;
+text-align: left;
 }
 .boxmain{
     display: flex;
-    gap: 20px;
-    justify-content: center;
+    justify-content:space-between;
+}
+.exp-box{
+    width:600px ;
+}
+.exp-flex{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.exp-head{
+    text-align: center;
+    margin: 90px;
+}
+.cv-btn{
+ text-align: center;
+ margin-top: 50px;
 }
