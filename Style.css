@@ -1,26 +1,27 @@
-/* common shared style */
 body {
     font-family: 'Open Sans', sans-serif;
 }
-.txtprc{
+
+.txtprc {
     color: #FD6E0A;
 }
-.btn-primary{
-   background: #FD6E0A;
-   border-radius: 5px;
-   padding: 19px 36px;
-   border: 0px;
-   color: #FFF;
-   font-size: 20px;
-   font-weight: 700;
+
+.btn-primary {
+    background: #FD6E0A;
+    border-radius: 5px;
+    padding: 19px 36px;
+    border: 0px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
 
 }
 
-/* nav style*/
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 
 }
 
@@ -30,17 +31,101 @@ nav {
     font-weight: 800;
 }
 
-nav>ul{
+nav>ul {
     display: flex;
     align-items: center;
-   
+
 }
 
-nav li{
+nav li {
     list-style: none;
     margin-right: 51px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-image: url('images/developer.png');
+}
+
+.banner {
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 30px 30px 0px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.mypic {
+    width: 500px;
+}
+
+.banner-content {
+}
+
+.greetingtxt{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.name {
+    color: #181818);
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-pragraph{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+} 
+.aboutme{
+     text-align: center;
+     width: 80%;
+     margin: auto;
+     background-color: #FFF8F3;
+     padding: 200px;
+     margin: 50px;
+}
+.aboutinfo{
+    display: flex;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    list-style: none;
+    gap: 20px;
+}
+.aboutheading{
+    font-size: 35px;
+}
+.aboutnamehead{
+    font-size: 18px;
+    font-weight: bold;
+}
+.whatido{
+    width:80%;
+    text-align: center;
+    margin: auto;
+}
+.box{
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.boxmain{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
