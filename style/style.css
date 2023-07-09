@@ -50,12 +50,12 @@ nav a {
     background-color: #FFF8F3;
     background-repeat: no-repeat;
     background-position: bottom left;
-    background-image: url('images/developer.png');
+    background-image: url('../images/developer.png');
     background-position-x: 20px;
 }
 
 .banner {
-    background-image: url('images/header_bg.png');
+    background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
     padding: 30px 30px 0px 200px;
@@ -96,6 +96,7 @@ nav a {
      margin: auto;
      background-color: #FFF8F3;
     padding: 100px;
+    margin-top: 50px;
      
 }
 .aboutinfo{
@@ -154,4 +155,33 @@ text-align: left;
 .cv-btn{
  text-align: center;
  margin-top: 50px;
+}
+.footer{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 113px;
+    padding: 130px 0px;
+    justify-content: space-between;
+    
+}
+.footer-bg{
+    background-color: #FFF8F3;
+}
+.left-footer{
+    width: 550px;
+}
+.right-footer{
+    padding-right: 230px;
+}
+.yname{
+    padding: 10px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    border: 2px solid #FD6E0A;
+    width: 220px;
+}
+.textarea{
+    border-radius: 5px;
+    border: 2px solid #FD6E0A;
 }
